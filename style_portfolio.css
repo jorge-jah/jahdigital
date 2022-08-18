@@ -1,0 +1,346 @@
+
+html, body { 
+	height: 100%;
+}
+body{
+	margin:0;
+
+} 
+
+.geral {
+	min-height: 100%;
+	position: relative;
+	
+}
+
+#menu  {
+	width: 100%;
+	height: 50px;
+	padding: 15px 0 0 0; 
+	background-color: black;
+	color: white;
+	text-align: center;
+	font: 16px bold, Verdana, sans-serif;
+	border-bottom-style: outset;
+	
+}
+
+#menu  ul {
+	list-style-type: none;
+	margin:0px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+
+}
+
+#menu li {
+	display: inline;
+
+}
+
+#menu a{
+	color:white;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+#menu ul li a {
+	padding: 5px 25px;
+	display: inline-block;
+}
+#menu ul li a:hover {
+    color: grey;
+	height: 40px;
+	text-decoration:none;
+	/*text-shadow: 2px 2px 5px green;*/
+	/*border-radius: 5px 5px 0px 0px;*/
+	
+}	
+
+#nome_logo {
+	font: 50px bold, Verdana, sans-serif;
+	text-shadow: 2px 2px 5px green;
+	margin: 50px 0px 50px 0px;
+	color: black;
+	text-align: center;
+	
+}
+
+#box_inicial {
+	width:100%;
+	height:100px;
+	margin-bottom:160px;
+	text-align:center;
+	font-family: Verdana, Tahoma, Calibri, Arial, sans-serif;
+	float: left;
+	color:#2F4F4F;
+	
+}
+#img_inicial {
+	width: 1024px;
+	height:350px;
+	margin-left: 350px;
+	margin-top: 50px;
+
+}
+
+#img_sobremim {
+	width: 800px;
+	height:200px;
+	margin-left: 100px;
+	margin-top: 50px;
+	float: none;
+}
+
+#box_principal {
+	width: 100%;
+	margin: 50px 50px 50px 0px;
+	text-align:center;
+	font-family: Verdana, Tahoma, Calibri, Arial, sans-serif;
+	color:#2F4F4F;
+	float: left;
+}
+#box_portfolio {
+	width: 100%;
+	margin: 50px 50px 50px 0px;
+	text-align:center;
+	font-family: Verdana, Tahoma, Calibri, Arial, sans-serif;
+	color:#2F4F4F;
+	float: left;
+}
+
+#box_contato {
+	width: 100%;
+	margin: 50px 50px 50px 0px;
+	text-align:center;
+	font-family: Verdana, Tahoma, Calibri, Arial, sans-serif;
+	color:#2F4F4F;
+	float:left;
+}
+#formulario{
+	width:60%;
+	float:left;
+	margin-left:100px;
+	margin-bottom: 100px;
+	font: 20px Verdana, Tahoma, Calibri, Arial, sans-serif;
+	color: #2F4F4F;
+}
+input {
+	
+	border:none;
+	border-bottom-style:outset;
+	width: 50%;
+	margin-top:20px;
+	padding: 10px;
+	outline:none;
+	/*box-sizing:border-box;	
+	transition: width 0.4s ease-in-out;*/
+}
+#cidade{
+	width:37%;
+}
+
+#uf {
+	width: 10%;
+}
+textarea{
+	border:none;
+	border-bottom-style:outset;
+	resize:none;
+	width: 50%;
+	margin-top:20px;
+	padding: 10px;
+	outline:none;
+	
+}
+button {
+	border-style:solid;
+	border-radius:18px;
+	padding:10px;
+	background-color:white;
+	color:#2F4F4F;
+
+}
+button:hover{
+	background-color:#2F4F4F;
+	color:white;
+	
+}
+#canais{
+	background: #e9e9e9;
+	width:400px;
+	font-family: Calibri, Arial, sans-serif;
+	display:inline;
+	float: right;
+	margin-right: 100px;
+
+	
+}
+#canais p{
+	font: 16px bold, Verdana, Tahoma, Calibri, Arial, sans-serif;
+	margin-left: 30px;
+	color:#2F4F4F;
+}
+
+#canais a {
+	color:#2F4F4F;
+	text-decoration: none;
+}
+
+#canais a:hover {
+	color:grey;
+}
+
+.clear{
+	clear: both;
+}
+
+
+.meu_portfolio{
+	/*background: #e5e5e5;*/
+	padding: 5px;
+	width: 200px;
+	margin-left: 100px;
+	color: #2F4F4F;
+	text-align: justify;
+	float: left;
+	font: 15px bold, Calibri, Arial, sans-serif;
+}
+.meu_portfolio h3{
+	text-align: center;
+}
+
+/*.meu_portfolio img{
+	margin: 0px 10px 0px 10px;
+}*/
+
+#espaco{
+	margin-top: 80px;
+
+}
+
+
+.footer {
+	width:100%;
+	text-align: center;
+	font: 12px Calibri, Arial, sans-serif;
+	position:absolute;
+	bottom: 0;
+	
+}
+.creditos {
+	color: black;
+	text-decoration: none;
+}	
+a:hover {
+	color: black;
+	text-decoration:underline;
+	
+}
+
+@media screen and (min-width: 961px) and (max-width: 1320px) and (min-width: 768px) {
+	/* Basic */
+			html, body{
+			overflow-x: hidden;
+
+			}
+			body, input, textarea, select {
+				font-size: 16pt;
+			}
+			/*	h2 {
+				font-size: 1.5em;
+				letter-spacing: 0;
+				font-weight: 300;
+			}*/
+
+			.container {
+				padding: 0 15px 0 15px;
+			}
+			
+		/* Menu */
+			#menu{
+
+				height: 100px;
+				font: 30px bold, Verdana, sans-serif;
+			}
+			
+			#menu  ul {
+				list-style-type: none;
+				margin:0px;
+				padding-top: 25px;
+				float: left;
+				width: 100%;
+
+			}
+
+		/* Imagem Inicial*/
+
+		#img_inicial{
+			width: 2em;
+			height:350px;
+			margin-left: 100px;
+			margin-top: 50px;
+
+		}
+
+		/* Box Inicial */
+		#box_inicial{
+			margin-left: 100px;
+			width: 80%;
+		}
+
+		/* Box Principal */
+		#box_principal{
+			margin-left: 100px;
+			width: 80%;
+		}
+
+		/* Box Contato */
+		#box_contato{
+			width: 100%;
+			margin: 50px 50px 50px 0px;
+			
+		}
+
+		/* Canais */
+		#canais{
+			margin-right: 30%;
+			font: 16px bold, Verdana, Tahoma, Calibri, Arial, sans-serif;
+			color:#2F4F4F;
+			float: right;
+
+		}
+
+		/* Formulário */ 
+		#formulario{
+			margin-left: 25%;
+			width:100%;
+			font:20px bold, Verdana, Tahoma, Calibri, Arial, sans-serif;
+		}
+		textarea{
+			border:none;
+			border-bottom-style:outset;
+			resize:none;
+			width: 50%;
+			margin-top:20px;
+			padding: 10px;
+			outline:none;
+			font: 20px Verdana, Tahoma, Calibri, Arial, sans-serif;
+		}
+				
+		/* Footer */
+
+		.footer .copyright li {
+				display: block;
+				line-height: 1.25em;
+				border: 0;
+				padding: 0;
+				margin: 1em 0 0 0;
+		}
+
+		.footer .copyright li:first-child {
+					margin-top: 0;
+		}
+
+}
